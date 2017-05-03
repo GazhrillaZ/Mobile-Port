@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>投资送礼活动</title>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body class="bg">
+		<div class="imgbgw">
+			<div class="imgbg">
+				<div class="switch">
+					<ul class="slides">
+						<li><img src="img/1.jpg"></li>
+						<li><img src="img/2.jpg"></li>
+						<li><img src="img/3.jpg"></li>
+						<li><img src="img/4.jpg"></li>
+						<li><img src="img/5.jpg"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bott">
+			<p>要投活动标请联系客服约标</p>
+			<p>客服QQ：<span>2077378642</span>，客服电话：<span>400-0123-888</span></p>
+		</div>
+		<script type="text/javascript" src="js/public.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="js/active.js"></script>
+		<script>
+			$(".switch").flexslider({
+				animation: "slide",
+				slideshowSpeed: 4000, //展示时间间隔ms
+				animationSpeed: 400, //滚动时间ms
+				slideshow: false,
+				touch: true //是否支持触屏滑动
+			});
+		</script>
+	</body>
+
+</html>
