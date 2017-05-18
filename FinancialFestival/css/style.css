@@ -1,0 +1,45 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+body,html{font-size:12px;font-family:"Microsoft YaHei"; margin: 0px; padding: 0px; background-color: #8cdaff;width:100%;height: 100%;}
+ul,ol,li{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+input{ font-size:12px;}
+a{ text-decoration:none; color:#000;-webkit-tap-highlight-color: transparent;-webkit-touch-callout: none;-webkit-user-select: none;}
+a:hover{text-decoration:none;}
+.clear{clear:both;}
+
+.wrap {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;width: 100%;height: 100%;}
+.main {-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;width: 100%;overflow: auto;-webkit-overflow-scrolling: touch;}
+
+.bg-1{width: 100%;height: 7.18rem;background: url(../img/bg-1.png)no-repeat center top;background-size: 100%;position: relative;}
+.gif{width: 3.56rem;height: 2.38rem;background: url(../img/gif-frame.png)no-repeat center top;background-size: 100%;position: absolute;top: 3.11rem;left: 0.15rem;}
+.gif img{width: 3.38rem;height: 2.20rem;position: absolute;top: 0.09rem;left: 0.09rem;}
+.bg-2{width: 100%;height: 12.00rem;background: url(../img/bg-2.png)no-repeat center top;background-size: 100%;position: relative;}
+.oo{width: 7.10rem;height: 2.32rem;background: url(../img/oo.png);background-size: 100%;position: absolute;top: 6.6rem;left: 0.2rem;z-index: 888;}
+.bg-3{width: 100%;height: 16.04rem;background: url(../img/bg-3.png);background-size: 100%;position: relative;}
+.cd{width: 1.56rem;height: 1.58rem;}
+
+.cd .cddt{width: 1.15rem;display: block;position: absolute;top: 0.6rem;left: 0.2rem}
+.cd1{position: absolute;top: 5.6rem;left: 0.8rem;}
+.cd2{position: absolute;top: 2.1rem;left: 0.8rem;}
+.cd3{position: absolute;top: 0.2rem;left: 4rem;}
+.lb{width: 1.20rem;height: 2.21rem;position: absolute;top: 1.2rem;left: -0.2rem;}
+.lb img{width: 100%;}
+.cdd {width: 100%;}
+.imgRotate{animation: dishImg 2s ease-in infinite; -webkit-animation: dishImg 2s ease-in infinite;}
+@keyframes dishImg {
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100{
+        transform: rotate(30deg);
+    }
+}
